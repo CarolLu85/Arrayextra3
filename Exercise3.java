@@ -6,7 +6,7 @@ public class Exercise3 {
         int[] number = new int[5];
         int picked_number = 0;
         int index = 0;
-        while (true) {
+        while (index < 5) {
             boolean same_number = false;
             picked_number = random.nextInt(20) + 1;
             for (int i = 0; i < index; i++) {
@@ -19,9 +19,7 @@ public class Exercise3 {
                 number[index] = picked_number;
                 index = index + 1;
             }
-            if (index == 5) {
-                break;
-            }
+
         }
         for (int b = 0; b < 5; b++) {
         System.out.println(number[b]);
