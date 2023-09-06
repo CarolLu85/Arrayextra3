@@ -12,7 +12,9 @@ public class Exercise3 {
                 }
             }
         }
-
+    for (int b = 0; b < 5; b++){
+        System.out.print(number[b]);
+    }    
 
     }   
 }
