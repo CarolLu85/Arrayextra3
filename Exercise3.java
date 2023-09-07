@@ -19,7 +19,6 @@ public class Exercise3 {
                 number[index] = picked_number;
                 index = index + 1;
             }
-
         }
         for (int b = 0; b < 5; b++) {
         System.out.println(number[b]);
